@@ -1,14 +1,10 @@
-[![Kottans-Frontend][icon-kottans]][aysi]
-[![MIT Licensed][icon-mit]][license]
-[![Awesome][icon-awesome]][js-uni]
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 #Title
 ### KA Fresh
 
 ##Description
 
-KA Fresh is a simple but highly customizable 'new tab' page, with a personal dashboard featuring weather, to-do, notes, bookmarks and beautiful backgrounds.
+KA-ASTU Fresh is a simple but highly customizable 'new tab' page, with a personal dashboard featuring weather, to-do, notes, bookmarks and beautiful backgrounds.
 This respo is a chrome based browser extension for the students and other chrome funs.
 
 ### Functional Requirements
@@ -47,7 +43,7 @@ For your comfort we have created several telegram-chats:
  The developer is not tracking you in any means. 
  
 
-#### thing you should learn from me
+#### things you should learn from me
 
 * don't get bothered.
 * wait the perfect timing for love
