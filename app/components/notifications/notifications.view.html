@@ -1,0 +1,5 @@
+<div class="modal modal_notifications">
+    <div ng-repeat="item in notifications|filter:{isActionRequired:true} track by $index" class="notification">
+    	<ng-include src="'/app/components/'+ item.id +'/'+ item.id +'.view.html'"></ng-include>
+    </div>
+</div>

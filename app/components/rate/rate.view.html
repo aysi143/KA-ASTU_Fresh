@@ -1,0 +1,16 @@
+<ng-controller ng-controller="rateController">
+    <div class="popup__header">
+        <p>How do you like this new tab layout?</p>
+        <div class="stars">
+            <i class="stars__item" ng-repeat="star in stars" ng-class="{'active': star.active}" ng-mouseover="toggleRate($index)" ng-click="rate()"></i>
+        </div>
+    </div>
+    <div class="popup__body">
+        <h1 class="popup__title">Rate {{extensionName}}</h1>
+        <p>If you're happy with {{extensionName}}, please leave a positive rating at our Chrome Webstrore pages.</p>
+        <p>It will only takes two clicks and won't disturb any of your opened window or tabs.</p>
+        <div class="popup__btns">
+            <button class="link-btn link-btn_primary" ng-click="rate()">Rate us in store</button>
+        </div>
+    </div>
+</ng-controller>

@@ -1,0 +1,18 @@
+<div class="popup__body">
+    <h1 class="popup__title">Weather Settings</h1>
+    <div class="popup__content">
+        <h2 class="subtitle">Location</h2>
+        <search type="cities" placeholder="{{city.name}}" template-name="search-cities.view.html" on-submit="updateCity(city)"></search>
+        <h2 class="subtitle">Units</h2>
+        <div class="radio">
+            <input type="radio" id="celsius" name="units" ng-model="units" value="c" /><label for="celsius">Metric (Celsius)</label>
+        </div>
+        <div class="radio">
+            <input type="radio" id="fahrenheits" name="units" ng-model="units" value="f" /><label for="fahrenheits">Imperial (Fahrenheit)</label>
+        </div>
+    </div>
+    <div class="popup__btns">
+        <button class="link-btn link-btn_default" ng-click="closeThisDialog()">Dismiss</button>
+        <button class="link-btn link-btn_primary" ng-click="saveChanges()">Save Changes</button>
+    </div>
+</div>

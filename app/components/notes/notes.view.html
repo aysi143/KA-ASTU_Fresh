@@ -1,0 +1,24 @@
+<div class="widget">
+    <div class="widget__header">
+        <h1 class="widget__title">Notes</h1>
+    </div>
+    <div class="notes-menu">
+        <span class="toggle" ng-class="{'active': showList}" ng-click="showList = showList ? false : true"></span>
+        <span class="notes-menu__total">{{notes.length == 1 ? notes.length + ' Note' : notes.length + ' Notes'}}</span>
+        <span class="notes-menu__add" ng-click="addNote()">+ Add Note</span>
+    </div>
+    <div class="widget__content" ui-tree="notesOptions" data-empty-placeholder-enabled="false">
+        <textarea class="note" ng-model="notes[openedNote].body" ng-change="editNote(this)" ng-model-options="{'debounce': 500}" autofocus></textarea>
+        <ul ui-tree-nodes="" ng-model="notes" class="notes-list" ng-class="{'active': showList}">
+            <li ng-repeat="note in notes track by note.created"
+                ng-class="{'active' : openedNote==$index}"
+                ng-click="openNote($index)"
+                ui-tree-node
+                class="notes-list__item">
+                {{note.title}}
+                <span class="notes-list__drag" ui-tree-handle></span>
+                <span class="notes-list__remove" ng-click="removeNote(note, $event)"></span>
+            </li>
+        </ul>
+    </div>
+</div>

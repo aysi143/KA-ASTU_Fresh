@@ -1,0 +1,8 @@
+<form class="search-form" ng-submit="submit()">
+    <input class="search-form__query" type="text" placeholder ="Search" ng-change="getSuggestions()" ng-keydown="switchSugg($event)" ng-model="inputValue" ng-model-options="{debounce: 300}"/>
+    <input class="search-form__submit" type="submit" style = "visibility: visible;"/>
+    <ul class="suggestions" ng-show="showSuggestions">
+        <li class="nothing" ng-show="!suggestions.length">Nothing found.</li>
+        <li class="suggestions__item" ng-repeat="suggestion in suggestions" ng-bind-html="suggestion | highlight:query" ng-click="submit(suggestion)" ng-class="{'active': $index==activeSugg}"></li>
+    </ul>
+</form>

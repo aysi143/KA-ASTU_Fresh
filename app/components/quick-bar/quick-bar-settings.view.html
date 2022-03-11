@@ -1,0 +1,26 @@
+<div class="tip tip_quick-bar" ng-cloak ng-if="!activity.quickBarTipWatched">
+    <p>Easily drag and drop icons between right pane and main layout or re-ordem them.</p>
+    <button class="link-btn link-btn_primary" ng-click="closeTip()">Ok, Got it</button>
+</div>
+<div class="widget quick-bar">
+    <div class="widget__header">
+        <button class="btn btn_small btn_theme_default" ng-click="saveChanges()">Save Changes</button>
+    </div>
+    <div class="widget__content">
+        <div class="widget__section widget__section_border">
+            <p>Drag and drop icons to main layout</p>
+            <div ui-tree="qbOptions" data-nodrop-enabled="true" data-empty-placeholder-enabled="true">
+	            <div class="apps" ng-class="{'hidden' : settings.apps === false}" ui-tree-nodes="" ng-model="hiddenApps" ng-cloak>
+					<a class="apps__item" ui-tree-node ng-repeat="item in hiddenApps" ng-click="goTo(item.url)" ng-class="{'active': $location.path() == item.url}">
+	                    <span ui-tree-handle class="apps__icon">
+	                        <img ng-if="item.name != 'Weather'" ng-src="images/{{settings.darkTheme ? item.icon_black || item.icon : item.icon}}"/>
+							<i ng-if="item.name == 'Weather'" class="w-icon_64px w-icon_02d w-icon_801"></i>
+							<span class="apps__notification" ng-if="item.name == 'To-Do' && todoCount > 0" ng-bind="todoCount" ng-cloak></span>
+	                    </span>
+	                    <span class="apps__title" ng-bind="item.name"></span>
+	                </a>
+	            </div>
+			</div>
+        </div>
+    </div>
+</div>

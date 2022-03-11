@@ -1,0 +1,173 @@
+/* Notes widget */
+.notes-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 35px;
+    padding: 0 20px;
+    border-bottom: 1px solid #D8D8D8;
+    &__total {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    &__add {
+        font-size: 14px;
+        cursor: pointer;
+        color: #3E82F7;
+        margin-left: auto;
+    }
+    & + .widget__content {
+        position: relative;
+    }
+}
+
+.note {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    resize: none;
+}
+
+.sidebar .notes-list {
+    display: block;
+    width: 205px;
+    height: 100%;
+    position: absolute !important;
+    top: 0;
+    left: -209px;
+    background-color: #EEEEE4;
+    transition: all 0.3s;
+    transition-timing-function: ease-out;
+    &.active {
+        left: 0;
+    }
+    &:after {
+        content: '';
+        display: block;
+        opacity: 0.2;
+        width: 4px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: -4px;
+        background-image: linear-gradient(-90deg, rgba(255,255,255,0.00) 0%, #000000 100%);
+    }
+    &__item {
+        cursor: pointer;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0 15px;
+        transition: all .3s;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        position: relative;
+        &:hover {
+            background-color: #D7D7CD;
+            .notes-list__remove,
+            .notes-list__drag {
+                display: block;
+            }
+        }
+        &.active {
+            background-color: #3E82F7;
+            color: #fff;
+        }
+    }
+    &__remove {
+        display: none;
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        background-color: rgba(255,255,255,0.8);
+        position: absolute;
+        top: 8px;
+        right: 5px;
+        transition: all .3s;
+        cursor: pointer;
+        &:hover {
+            background-color: $blue;
+            &:after,
+            &:before {
+                background-color: #fff;
+            }
+        }
+        &:active {
+            background-color: #545454;
+        }
+        &:after,
+        &:before {
+            content: '';
+            display: block;
+            width: 2px;
+            height: 12px;
+            background-color: #545454;
+            position: absolute;
+            margin-top: 6px;
+            margin-left: 11px;
+            transition: all .3s;
+        }
+        &:after {
+            transform: rotate(45deg);
+        }
+        &:before {
+            transform: rotate(-45deg);
+        }
+    }
+    &__drag {
+        display: none;
+        width: 24px;
+        height: 24px;
+        background-image: url('../images/drag.png');
+        @include retina-bg('../images/drag@2x.png');
+        background-size: 12px 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 8px;
+        right: 38px;
+        border-radius: 12px;
+        background-color: rgba(255,255,255,0.8);
+        transition: all .3s;
+        cursor: move;
+        &:hover {
+            background-color: $blue;
+            background-image: url('../images/drag-hover.png');
+            @include retina-bg('../images/drag-hover@2x.png');
+        }
+    }
+    .angular-ui-tree-placeholder {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.toggle {
+    display: block;
+    cursor: pointer;
+    width: 16px;
+    height: 12px;
+    background-image: url('../images/toggle.png');
+    @include retina-bg('../images/toggle@2x.png');
+    background-size: 16px 12px;
+    transition: all .3s;
+    &.active {
+        transform: rotate(90deg);
+    }
+}
+
+.notes-list {
+    &.angular-ui-tree-drag {
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0 15px;
+	}
+}

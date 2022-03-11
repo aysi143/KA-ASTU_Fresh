@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="53px" height="38px" viewBox="0 0 53 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="53" height="38" rx="3"></rect>
+        <path d="M6.02272727,38 L3.01097144,38 C1.34805783,38 0,36.6698412 0,35.0340317 L0,3.23094368 C0,1.5928846 1.01957203,4.07648323 2.68057043,4.07648323 L6.02272727,6.71252739 L6.02272727,38 Z" id="path-3"></path>
+        <filter x="-8.3%" y="-1.4%" width="116.6%" height="102.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.764705882   0 0 0 0 0.270588235   0 0 0 0 0.219607843  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="67.1503847%" y1="84.2126403%" x2="4.58832748%" y2="9.2327392%" id="linearGradient-5">
+            <stop stop-color="#DAD8D8" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#C7C7C7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M46.9772727,5.44870794 C46.9772727,5.44870794 47.0494733,5.9375 46.9772727,5.9375 C45.9011536,5.9375 49.6875,3.859375 49.6875,3.859375 C51.3504136,3.859375 53.0000003,1.92669043 53.0000003,3.5625 L53,35.0340317 C53,36.6720907 51.650027,38 49.9890286,38 L46.9772727,38 L46.9772727,5.44870794 Z" id="path-6"></path>
+        <filter x="-8.0%" y="-1.4%" width="116.1%" height="102.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.701960784   0 0 0 0 0.219607843   0 0 0 0 0.164705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M47.4022522,0.759944916 C49.3814983,-0.379687535 51.4132085,-0.276109689 52.4748424,1.28773885 L52.6635441,1.59594449 C53.3885443,3.06862301 53.0150379,4.80008514 51.5076294,5.87528725 L26.5129977,23.7034205 L1.43276627,5.8386586 C-0.0685634116,4.7692547 -0.318817821,2.80748359 0.3436307,1.59594455 L0.472290048,1.36297231 C1.4327663,-0.18416977 3.61293804,-0.402187351 5.10697643,0.604475251 L26.494396,15.5418494 L47.4022522,0.759944916 Z" id="path-8"></path>
+        <filter x="-4.7%" y="-10.5%" width="113.2%" height="129.5%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-2.8%" y="-6.3%" width="109.4%" height="121.1%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.854901961   0 0 0 0 0.290196078   0 0 0 0 0.243137255  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M47.4022522,0.759944916 C49.3814983,-0.379687535 51.4132085,-0.276109689 52.4748424,1.28773885 L52.6635441,1.59594449 C53.3885443,3.06862301 53.0150379,4.80008514 51.5076294,5.87528725 L26.5129977,23.7034205 L1.43276627,5.8386586 C-0.0685634116,4.7692547 -0.318817821,2.80748359 0.3436307,1.59594455 L0.472290048,1.36297231 C1.4327663,-0.18416977 3.61293804,-0.402187351 5.10697643,0.604475251 L26.494396,15.5418494 L47.4022522,0.759944916 Z" id="path-11"></path>
+        <filter x="-0.9%" y="-2.1%" width="101.9%" height="104.2%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.854901961   0 0 0 0 0.290196078   0 0 0 0 0.243137255  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Extension" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="extname_newtab" transform="translate(-422.000000, -491.000000)">
+            <g id="icons" transform="translate(207.000000, 274.000000)">
+                <g id="row" transform="translate(0.000000, 186.000000)">
+                    <g id="item" transform="translate(191.000000, 0.000000)">
+                        <g id="Icon" transform="translate(24.000000, 31.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#EFEFEF" xlink:href="#path-1"></use>
+                            <polygon id="Mid-Shadow" fill="#E3E3E3" mask="url(#mask-2)" points="6.14993084 7.70567211 6.14993084 37.9248323 32.5802986 19.4559829"></polygon>
+                            <g id="Left-Bar" mask="url(#mask-2)">
+                                <use fill="#D54D40" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            </g>
+                            <path d="M1.20055185,1.50147229 C1.20055185,1.50147229 1.34844706,0.422220621 1.13161816,2.00450951 C0.914789251,3.58679841 0.995271856,5.44507582 0.995271856,5.44507582 L40.3906889,45.2612012 L59.4936634,45.4556502 C59.4936634,45.4556502 59.3880288,17.8665708 59.3359581,2.21338696 C59.335461,2.06393924 59.3359601,-1.95224457 59.3359601,-1.95224457 C59.3359601,-1.95224457 52.46085,3.12647967 45.303351,8.4276988 C38.8509362,13.2066956 32.3588288,18.2410333 27.1458084,18.5942678 C19.3421959,19.1230409 2.93804989,1.8692804 2.93804989,1.8692804 L1.20055185,1.50147229 Z" id="Big-Shadow" fill="url(#linearGradient-5)" mask="url(#mask-2)"></path>
+                            <g id="Right-Bar" mask="url(#mask-2)">
+                                <use fill="#C33B2C" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            </g>
+                            <g id="Top-Shadow" mask="url(#mask-2)">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                <use fill="#DD4D40" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-8"></use>
+                            </g>
+                            <path d="M1.15753955,3.42212656 C1.57094371,3.75658301 2.08444757,4.07648323 2.68057043,4.07648323 L6.02272727,6.71252739 L6.02272727,10.5408394 L0.930795149,5.39669592 C0.930795149,5.39669592 1.02635309,4.50044829 1.15753955,3.42212656 L1.15753955,3.42212656 Z" id="Small-Shadow" fill="#AF4A40" mask="url(#mask-2)"></path>
+                            <g id="Top" mask="url(#mask-2)">
+                                <use fill="#DD4D40" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

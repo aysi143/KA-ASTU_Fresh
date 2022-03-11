@@ -1,0 +1,45 @@
+<div class="widget">
+    <div class="widget__header">
+        <h1 class="widget__title">Settings</h1>
+    </div>
+    <div class="widget__content">
+        <div class="widget__section widget__section_border">
+            <h2 class="subtitle">Background</h2>
+            <ul class="backgrounds">
+                <li class="backgrounds__item"
+                    ng-repeat="bg in backgrounds | limitTo:6:0"
+                    ng-style="bg[0] == '#' ? {'background-color': bg} : {'background-image': 'url(../images/bg/{{bg}}-preview.jpg)'}"
+                    ng-click="saveBackground(bg, $index);"
+                    ng-class="{'selected': background.bg == bg}">
+                </li>
+            </ul>
+            <h2 class="subtitle">Background Rotation</h2>
+            <div class="radio">
+                <input type="radio" id="never" name="changeMode" ng-model="background.changeMode" value="never" ng-change="saveBackground()" /><label for="never">Never</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="random" name="changeMode" ng-model="background.changeMode" value="random" ng-change="saveBackground()" /><label for="random">Every Time</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="everyhour" name="changeMode" ng-model="background.changeMode" value="everyhour" ng-change="saveBackground()" /><label for="everyhour">Every Hour</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="everyday" name="changeMode" ng-model="background.changeMode" value="everyday" ng-change="saveBackground()" /><label for="everyday">Every Day</label>
+            </div>
+        </div>
+        <div class="widget__section widget__section_border">
+            <h2 class="subtitle">Weather Units</h2>
+            <div class="radio">
+                <input type="radio" id="celsius" name="units" ng-model="weatherSettings.units" value="c" ng-change="saveWeatherSettings()" /><label for="celsius">Metric (Celsius)</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="fahrenheits" name="units" ng-model="weatherSettings.units" value="f" ng-change="saveWeatherSettings()" /><label for="fahrenheits">Imperial (Fahrenheit)</label>
+            </div>
+        </div>
+        <div class="widget__section widget__section_border">
+            <div class="checkbox">
+                <input type="checkbox" id="apps" ng-model="settings.apps" ng-change="saveSettings()" /><label for="apps">Apps and Widgets</label>
+            </div>
+        </div>
+    </div>
+</div>

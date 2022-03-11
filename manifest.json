@@ -1,0 +1,49 @@
+{
+    "background": {
+        "scripts": [ "js/background.js" ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "images/icon_16.png",
+            "48": "images/icon_48.png",
+            "128": "images/icon_128.png"
+        },
+        "default_title": "Open New Tab"
+    },
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+    "description": "A simple but highly customizable new tab page, with a personal dashboard featuring weather, to-do, notes, bookmarks and beautiful backgrounds.",
+    "icons": {
+        "16": "images/icon_16.png",
+        "48": "images/icon_48.png",
+        "128": "images/icon_128.png"
+    },
+    "content_scripts" : [{
+        "matches" : [ "<all_urls>" ],
+        "match_about_blank" : true,
+        "js": ["js/background.js"],
+        "run_at" : "document_start",
+        "all_frames" : true
+    }],
+    "web_accessible_resources": [
+        "newtab.html"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval';object-src 'self'",
+    "manifest_version": 2,
+    "name": "KA Fresh",
+    "permissions": [ "storage", "activeTab", "\u003Call_urls>", "tabs", "bookmarks", "history", "chrome://favicon/*", "browsingData", "history" ],
+    "update_url": "https://google.com",
+    "version": "1.0.0",
+    "chrome_settings_overrides": {
+        "search_provider": {
+        "name": "KA Fresh",
+        "keyword": "KA Fresh",
+        "search_url": "https://bing.com/search?q={searchTerms}",
+        "favicon_url": "https://bing.com/favicon.ico",
+        "encoding": "UTF-8",
+        "is_default": true
+        }
+      }
+}

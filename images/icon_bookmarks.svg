@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="45px" viewBox="0 0 52 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="handy-tab_newtab" transform="translate(-995.000000, -303.000000)" stroke-width="3" stroke="#979797">
+            <g id="icons" transform="translate(207.000000, 276.000000)">
+                <g id="row">
+                    <g id="item" transform="translate(764.000000, 0.000000)">
+                        <path d="M48.5,67.0504098 L48.5,35.4103859 C48.5,31.321458 43.5937064,28.5 37,28.5 C30.4062936,28.5 25.5,31.321458 25.5,35.4103859 L25.5,65.2801435 C25.5,66.1098121 25.5,66.8073037 25.5,67.3989402 C25.6325436,67.2726642 25.7685455,67.1474789 25.9080454,67.0235483 C28.7373775,64.509994 32.4232108,63 37,63 C41.8904842,63 45.7556389,64.3560668 48.5,67.0504098 Z M51.5,67.0504098 C54.2443611,64.3560668 58.1095158,63 63,63 C67.5767892,63 71.2626225,64.509994 74.0919546,67.0235483 C74.2314545,67.1474789 74.3674564,67.2726642 74.5,67.3989402 C74.5,66.8073037 74.5,66.1098121 74.5,65.2801435 L74.5,35.4103859 C74.5,31.321458 69.5937064,28.5 63,28.5 C56.4062936,28.5 51.5,31.321458 51.5,35.4103859 L51.5,67.0504098 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

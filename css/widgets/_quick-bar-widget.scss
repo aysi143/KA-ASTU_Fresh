@@ -1,0 +1,63 @@
+.quick-bar {
+    .widget__header {
+        padding: 10px 15px;
+    }
+    .btn_small {
+        width: 130px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 15px;
+        color: inherit;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+    .apps {
+        max-height: none;
+        padding-top: 5px;
+        &__item {
+            transition: none;
+            margin-top: 0;
+            margin-bottom: 30px;
+            width: 50%;
+        }
+        &__icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            background: #FFFFFF;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,0.30);
+            margin-bottom: 10px;
+            cursor: move;
+            img {
+                display: block;
+            }
+        }
+        &__title {
+            font-size: 15px;
+            line-height: 17px;
+            text-align: center;
+            color: #323232;
+        }
+    }
+    .angular-ui-tree-hidden {
+        display: block;
+        padding: 0;
+        height: 126px;
+        border: none;
+        width: 50%;
+        min-width: 100px;
+        margin: 0;
+        .apps__item {
+            opacity: .5;
+            margin: 0 auto;
+        }
+    }
+    .angular-ui-tree-placeholder {
+        display: none;
+    }
+}

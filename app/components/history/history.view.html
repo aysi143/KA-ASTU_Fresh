@@ -1,0 +1,24 @@
+<div class="widget">
+    <div class="widget__header">
+        <h1 class="widget__title">History</h1>
+    </div>
+    <div class="widget__content">
+        <div class="widget__section">
+            <div class="input">
+                <input type="text" placeholder="Search History" ng-model="query" ng-model-options="{debounce: 500}" />
+                <span class="cancel" ng-click="query=''"></span>
+                <span class="action" ng-click="clearHistory()">Clear History</span>
+            </div>
+        </div>
+        <span ng-if="filteredItems.length == 0" class="nothing">Nothing found</span>
+        <ul class="sites">
+            <li class="sites__item" ng-repeat="item in filteredItems=(history | filter:query | limitTo:10) track by $index">
+                <img class="sites__icon" src="chrome://favicon/size/16/{{item.url}}" srcset="chrome://favicon/size/16@2x/{{item.url}} 2x" />
+                <a href="{{item.url}}">
+                    {{item.title ? item.title : item.url}}
+                    <span class="remove" ng-click="removeItem(item, $event)"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

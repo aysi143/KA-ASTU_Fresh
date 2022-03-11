@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="handy-tab_newtab" transform="translate(-997.000000, -488.000000)">
+            <g id="icons" transform="translate(207.000000, 276.000000)">
+                <g id="row" transform="translate(0.000000, 179.000000)">
+                    <g id="item" transform="translate(764.000000, 7.000000)">
+                        <g id="Facebook" transform="translate(26.000000, 26.000000)">
+                            <rect id="Rectangle-15" fill="#4861A3" x="0" y="0" width="48" height="48" rx="5"></rect>
+                            <path d="M25.1087719,47.7625933 L25.1087719,29.1709529 L19.0689766,29.1709529 L19.0689766,22.485338 L25.1087719,22.485338 L25.1087719,17.5829998 C25.1087719,17.5829998 24.6743071,7.39299127 33.4927071,7.39299127 L40.6260003,7.39299127 L40.626,14.2046713 L36.1812,14.2046713 C36.1812,14.2046713 32.91,14.0271685 32.8744,17.4033204 L32.8743996,22.485338 L40.0653725,22.485338 L39.0282082,29.1709529 L32.8032006,29.1709529 L32.8032006,48 L25.1087719,48 L25.1087719,47.7625933 Z" id="Icon" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
