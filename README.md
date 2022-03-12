@@ -15,9 +15,9 @@ This respo is a chrome based browser extension for the students and other chrome
  5, book-marks
  6, customization
 
-### Admission
 
-To join the main course track, the applicants are required to finish tasks listed in [Stage 0. Self-Study](contents.md#stage-0-self-study) part of the course and to pass successfully the interview with mentors. We highly encourage you to be active in your study process and help other students: answer questions in chants, review pull-requests, report possible errors and suggest solutions. Don’t hesitate to ask questions and let mentors know if you are stuck and need help. Your progress is in your hands.
+
+
 
 ### I promise you to add the following in the coming release
 
@@ -27,8 +27,8 @@ To join the main course track, the applicants are required to finish tasks liste
 4, Hobble alarm
     and more...
 
-<!-- TODO: finish it up  -->
-<!-- For more information take a look on [syllabus](syllabus.md) -->
+
+
  ### Cotact me for any details
 
 For your comfort we have created several telegram-chats:
